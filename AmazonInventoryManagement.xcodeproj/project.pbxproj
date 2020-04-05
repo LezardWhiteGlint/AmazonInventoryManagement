@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94233802439A5AF007533E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F942337F2439A5AF007533E5 /* AppDelegate.swift */; };
+		F94233822439A5AF007533E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94233812439A5AF007533E5 /* ContentView.swift */; };
+		F94233852439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F94233832439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld */; };
+		F94233872439A5B5007533E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94233862439A5B5007533E5 /* Assets.xcassets */; };
+		F942338A2439A5B5007533E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94233892439A5B5007533E5 /* Preview Assets.xcassets */; };
+		F942338D2439A5B5007533E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942338B2439A5B5007533E5 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F942337C2439A5AF007533E5 /* AmazonInventoryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonInventoryManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942337F2439A5AF007533E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F94233812439A5AF007533E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F94233842439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmazonInventoryManagement.xcdatamodel; sourceTree = "<group>"; };
+		F94233862439A5B5007533E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F94233892439A5B5007533E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F942338C2439A5B5007533E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F942338E2439A5B5007533E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F942338F2439A5B5007533E5 /* AmazonInventoryManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazonInventoryManagement.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F94233792439A5AF007533E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94233732439A5AF007533E5 = {
+			isa = PBXGroup;
+			children = (
+				F942337E2439A5AF007533E5 /* AmazonInventoryManagement */,
+				F942337D2439A5AF007533E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F942337D2439A5AF007533E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F942337C2439A5AF007533E5 /* AmazonInventoryManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F942337E2439A5AF007533E5 /* AmazonInventoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F942337F2439A5AF007533E5 /* AppDelegate.swift */,
+				F94233812439A5AF007533E5 /* ContentView.swift */,
+				F94233862439A5B5007533E5 /* Assets.xcassets */,
+				F942338B2439A5B5007533E5 /* Main.storyboard */,
+				F942338E2439A5B5007533E5 /* Info.plist */,
+				F942338F2439A5B5007533E5 /* AmazonInventoryManagement.entitlements */,
+				F94233832439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld */,
+				F94233882439A5B5007533E5 /* Preview Content */,
+			);
+			path = AmazonInventoryManagement;
+			sourceTree = "<group>";
+		};
+		F94233882439A5B5007533E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F94233892439A5B5007533E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F942337B2439A5AF007533E5 /* AmazonInventoryManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94233922439A5B5007533E5 /* Build configuration list for PBXNativeTarget "AmazonInventoryManagement" */;
+			buildPhases = (
+				F94233782439A5AF007533E5 /* Sources */,
+				F94233792439A5AF007533E5 /* Frameworks */,
+				F942337A2439A5AF007533E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonInventoryManagement;
+			productName = AmazonInventoryManagement;
+			productReference = F942337C2439A5AF007533E5 /* AmazonInventoryManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94233742439A5AF007533E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lezardvaleth;
+				TargetAttributes = {
+					F942337B2439A5AF007533E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F94233772439A5AF007533E5 /* Build configuration list for PBXProject "AmazonInventoryManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F94233732439A5AF007533E5;
+			productRefGroup = F942337D2439A5AF007533E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F942337B2439A5AF007533E5 /* AmazonInventoryManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F942337A2439A5AF007533E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942338D2439A5B5007533E5 /* Main.storyboard in Resources */,
+				F942338A2439A5B5007533E5 /* Preview Assets.xcassets in Resources */,
+				F94233872439A5B5007533E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F94233782439A5AF007533E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94233852439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld in Sources */,
+				F94233822439A5AF007533E5 /* ContentView.swift in Sources */,
+				F94233802439A5AF007533E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F942338B2439A5B5007533E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F942338C2439A5B5007533E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F94233902439A5B5007533E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F94233912439A5B5007533E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F94233932439A5B5007533E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AmazonInventoryManagement/AmazonInventoryManagement.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AmazonInventoryManagement/Preview Content\"";
+				DEVELOPMENT_TEAM = AV64Q6NXM9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AmazonInventoryManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Lezardvaleth.AmazonInventoryManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F94233942439A5B5007533E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AmazonInventoryManagement/AmazonInventoryManagement.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AmazonInventoryManagement/Preview Content\"";
+				DEVELOPMENT_TEAM = AV64Q6NXM9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AmazonInventoryManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Lezardvaleth.AmazonInventoryManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F94233772439A5AF007533E5 /* Build configuration list for PBXProject "AmazonInventoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94233902439A5B5007533E5 /* Debug */,
+				F94233912439A5B5007533E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94233922439A5B5007533E5 /* Build configuration list for PBXNativeTarget "AmazonInventoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94233932439A5B5007533E5 /* Debug */,
+				F94233942439A5B5007533E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F94233832439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F94233842439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodel */,
+			);
+			currentVersion = F94233842439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodel */;
+			path = AmazonInventoryManagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F94233742439A5AF007533E5 /* Project object */;
+}
