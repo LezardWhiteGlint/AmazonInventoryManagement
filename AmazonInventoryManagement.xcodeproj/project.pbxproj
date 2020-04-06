@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		F94233802439A5AF007533E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F942337F2439A5AF007533E5 /* AppDelegate.swift */; };
-		F94233822439A5AF007533E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94233812439A5AF007533E5 /* ContentView.swift */; };
+		F94233822439A5AF007533E5 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94233812439A5AF007533E5 /* InventoryView.swift */; };
 		F94233852439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F94233832439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld */; };
 		F94233872439A5B5007533E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94233862439A5B5007533E5 /* Assets.xcassets */; };
 		F942338A2439A5B5007533E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94233892439A5B5007533E5 /* Preview Assets.xcassets */; };
 		F942338D2439A5B5007533E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942338B2439A5B5007533E5 /* Main.storyboard */; };
+		F95E43CB2439ED0F00C216A8 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E43CA2439ED0F00C216A8 /* Inventory.swift */; };
+		F95E43CD243A2B4F00C216A8 /* InventoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E43CC243A2B4F00C216A8 /* InventoryCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F942337C2439A5AF007533E5 /* AmazonInventoryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonInventoryManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F942337F2439A5AF007533E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F94233812439A5AF007533E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F94233812439A5AF007533E5 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		F94233842439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmazonInventoryManagement.xcdatamodel; sourceTree = "<group>"; };
 		F94233862439A5B5007533E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94233892439A5B5007533E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F942338C2439A5B5007533E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F942338E2439A5B5007533E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F942338F2439A5B5007533E5 /* AmazonInventoryManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazonInventoryManagement.entitlements; sourceTree = "<group>"; };
+		F95E43CA2439ED0F00C216A8 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		F95E43CC243A2B4F00C216A8 /* InventoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				F942337F2439A5AF007533E5 /* AppDelegate.swift */,
-				F94233812439A5AF007533E5 /* ContentView.swift */,
+				F94233812439A5AF007533E5 /* InventoryView.swift */,
+				F95E43CC243A2B4F00C216A8 /* InventoryCellView.swift */,
+				F95E43CA2439ED0F00C216A8 /* Inventory.swift */,
 				F94233862439A5B5007533E5 /* Assets.xcassets */,
 				F942338B2439A5B5007533E5 /* Main.storyboard */,
 				F942338E2439A5B5007533E5 /* Info.plist */,
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95E43CB2439ED0F00C216A8 /* Inventory.swift in Sources */,
+				F95E43CD243A2B4F00C216A8 /* InventoryCellView.swift in Sources */,
 				F94233852439A5AF007533E5 /* AmazonInventoryManagement.xcdatamodeld in Sources */,
-				F94233822439A5AF007533E5 /* ContentView.swift in Sources */,
+				F94233822439A5AF007533E5 /* InventoryView.swift in Sources */,
 				F94233802439A5AF007533E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
